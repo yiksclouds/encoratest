@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="dZ82zEgHvKaIPUVl4buwRokNWVUj9DKjXXZuMGfj">
+
+    <title>
+                Shows
+ - encora
+            </title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/fonts/brandon-grotesque.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/sk-modernist.css">
+
+    <!-- Styles -->
+    <link id="lightCssId" href="https://encora.one/css/light.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" />
+
+    <style type="text/css">
+            </style>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {
+            csrfToken: "dZ82zEgHvKaIPUVl4buwRokNWVUj9DKjXXZuMGfj",
+            routeName: "productions.index",
+        };
+    </script>
+
+    <script src="https://encora.one/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function() {
+                $(".dropdown-autocomplete-menu").select2();
+            }
+        );
+    </script>
+
+    </head>
+
+<body>
+    <div id="app">
+
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
+
+<div class="container fake-container d-flex flex-nowrap text-nowrap d-md-none">  
+
+
+
+
+
+
+
+<form method="GET" action="https://encora.one/search" class="form-inline flex-grow-1">
+    <label class="sr-only" for="search">Search</label>
+    <input class="form-control mr-1 w-100" id="search-mobile" type="search" placeholder="Search encora" aria-label="Search" name="q" value="P">
+    
+</form>
+
+
+<button class="navbar-toggler px-0" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+</div>  
+
+<div class="collapse navbar-collapse fake-container" id="navbarSupportedContent">
+    <a class="navbar-brand" href="https://encora.one">
+        encora
+    </a>
+
+    <ul class="navbar-nav mr-auto">
+
+    
+    <form method="GET" action="https://encora.one/search" class="form-inline d-none d-md-flex">
+        
+        
+        <label class="sr-only" for="search">Search</label>
+        <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search" name="q" value="P">
+    </form>
+
+    </ul>  
+
+    <ul class="navbar-nav">
+
+    
+    
+    <li class="nav-item dropdown">
+        <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button" aria-expanded="false" title="Browse...">
+            <span><i class="fas fa-book-open"></i></span>
+            <span class="d-md-none pl-1">Browse... <i class="fas fa-caret-down"></i></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right" role="menu">
+            <a href="https://encora.one/shows" class="dropdown-item">
+                Shows
+            </a>
+
+            <a href="https://encora.one/performers" class="dropdown-item">
+                Performers
+            </a>
+
+                    </div>  
+    </li>
+
+    
+        <li class="nav-item">
+        <a href="https://encora.one/login" class="nav-link">
+            Register or Login
+        </a>
+    </li>
+    
+    </ul>  
+
+</div>  
+
+</nav>
+
+                        <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 style="display:inline-block;">
+                                Shows
+                            </h2>
+                        </div>
+                                            </div>
+                </div>
+
+<div class="card-body p-2">
+<form method="GET" action="https://encora.one/shows" accept-charset="UTF-8">
+  <div class="form-row align-items-center">
+    <div class="col">
+      
+      <label class="sr-only" for="search">Search</label>
+      <input type="text" class="form-control" id="search_productions.index" placeholder="Search" name="search" value="P" minlength=1 style="width:100%;">
+    </div>
+    <button type="submit" class="btn btn-primary d-none d-sm-block">Search</button>
+  </div>
+</form>
+</div>  
+ 
+
+                <div class="card-body">
+                    <div class="flex-container row alphabet">
+    <div>
+        <a href="https://encora.one/shows">
+            All
+        </a>
+    </div>
+
+        <div>
+        <a href="https://encora.one/shows?search=%23">
+            #
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=A">
+            A
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=B">
+            B
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=C">
+            C
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=D">
+            D
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=E">
+            E
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=F">
+            F
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=G">
+            G
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=H">
+            H
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=I">
+            I
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=J">
+            J
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=K">
+            K
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=L">
+            L
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=M">
+            M
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=N">
+            N
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=O">
+            O
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=P">
+            P
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Q">
+            Q
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=R">
+            R
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=S">
+            S
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=T">
+            T
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=U">
+            U
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=V">
+            V
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=W">
+            W
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=X">
+            X
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Y">
+            Y
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Z">
+            Z
+        </a>
+    </div>
+    </div>
+                    <hr>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <td><a href="https://encora.one/shows?search=P&sort=title&direction=asc">Title</a> <i class="fa fa-sort"></i></td>
+                                    <td class="text-center"><a href="https://encora.one/shows?search=P&sort=performance_count&direction=asc"># of Performances</a> <i class="fa fa-sort"></i></td>
+                                                                    </tr>
+                            </thead>
+                            <tbody>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pacific-overtures">
+                                            Pacific Overtures
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        9
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pain-and-the-itch">
+                                            The Pain and the Itch
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paint-your-wagon">
+                                            Paint Your Wagon
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pajama-game">
+                                            The Pajama Game
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        11
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pal-joey">
+                                            Pal Joey
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        7
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pamelas-first-musical">
+                                            Pamela&#039;s First Musical
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/panama-hattie">
+                                            Panama Hattie
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pantaleon-y-las-visitadoras">
+                                            Pantaleón y las Visitadoras
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paper-moon">
+                                            Paper Moon
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/parade">
+                                            Parade
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        21
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paradise-found">
+                                            Paradise Found
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paramour-cirque-du-soleil">
+                                            Paramour (Cirque du Soleil)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        5
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pardon-my-english">
+                                            Pardon My English
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paris">
+                                            Paris
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paris-a-rock-odyssey">
+                                            Paris: a Rock Odyssey
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-parisian-woman">
+                                            The Parisian Woman
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/park">
+                                            Park
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/parlour-song">
+                                            Parlour Song
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/passing-strange">
+                                            Passing Strange
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/passion">
+                                            Passion
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        20
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/patalliro">
+                                            Patalliro!
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/patience-bunthornes-bride">
+                                            Patience (Bunthorne&#039;s Bride)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paw-patrol-live-race-to-the-rescue">
+                                            Paw Patrol Live! Race to the Rescue
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/paw-patrol-live-the-great-pirate-adventure">
+                                            Paw Patrol Live! The Great Pirate Adventure
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pee-wee-herman-show">
+                                            The Pee-Wee Herman Show
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peg-a-musical-autobiography">
+                                            Peg: A Musical Autobiography
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peggy-sue-got-married">
+                                            Peggy Sue Got Married
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/people">
+                                            People
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-people-in-the-picture">
+                                            The People in the Picture
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/people-places-things">
+                                            People, Places &amp; Things
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/perfectly-frank">
+                                            Perfectly Frank
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-performers">
+                                            The Performers
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persephones-cowboy">
+                                            Persephone&#039;s Cowboy
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-3-the-weird-masquerade-ao-no-kakusei">
+                                            Persona 3: the Weird Masquerade -Ao no Kakusei-
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-3-the-weird-masquerade-gunjou-no-meikyuu">
+                                            Persona 3: the Weird Masquerade -Gunjou no Meikyuu-
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-3-the-weird-masquerade-souen-no-kesshou">
+                                            Persona 3: the Weird Masquerade -Souen no Kesshou-
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-3-the-weird-masquerade-ai-no-seiyaku">
+                                            Persona 3: the Weird Masquerade: Ai no Seiyaku
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-3-the-weird-masquerade-hekikuu-no-kanata-e">
+                                            Persona 3: the Weird Masquerade: Hekikuu no Kanata e
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-4-the-ultimate-in-mayonaka-arena-stage-project">
+                                            Persona 4: The Ultimate in Mayonaka Arena Stage Project
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/persona-4-the-ultimax-ultra-suplex-hold-stage-project">
+                                            Persona 4: The Ultimax Ultra Suplex Hold Stage Project
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/personals">
+                                            Personals
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pete-the-cat">
+                                            Pete the Cat
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-and-alice">
+                                            Peter and Alice
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-and-jerry">
+                                            Peter and Jerry
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-and-the-starcatcher">
+                                            Peter and the Starcatcher
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        6
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-gynt">
+                                            Peter gynt
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan">
+                                            Peter Pan
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-charlap-leigh">
+                                            Peter Pan (Charlap &amp; Leigh)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        10
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-national-theatre">
+                                            Peter Pan (National Theatre)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-pantomime">
+                                            Peter Pan (Pantomime)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        6
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-goes-wrong">
+                                            Peter Pan Goes Wrong
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-a-musical-adventure-styles-drewe">
+                                            Peter Pan: A Musical Adventure (Styles &amp; Drewe)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/peter-pan-the-musical-paul-boyd">
+                                            Peter Pan: The Musical (Paul Boyd)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/petticoat">
+                                            Petticoat
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phantom-yestonkopit">
+                                            Phantom (Yeston/Kopit)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        15
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-phantom-of-the-opera-andrew-lloyd-webber">
+                                            The Phantom of the Opera (Andrew Lloyd Webber)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1622
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phantom-of-the-opera-ken-hill">
+                                            Phantom of the Opera (Ken Hill)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-phantom-of-the-opera-rosen-and-schierhorn">
+                                            The Phantom of the Opera (Rosen and Schierhorn)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phantom-of-the-opera-spiritual-twist">
+                                            Phantom of the Opera (Spiritual Twist)
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-phantom-of-the-opera-on-ice">
+                                            The Phantom of the Opera on Ice
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-phantom-of-the-opera-a-family-musical">
+                                            The Phantom of the Opera: A Family Musical
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phantom-the-untold-story-part-i-the-unkissed-child">
+                                            Phantom: The Untold Story - Part I - The Unkissed Child
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phantom-the-untold-story-part-ii-the-kiss-of-christine">
+                                            Phantom: The Untold Story - Part II - The Kiss of Christine
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-phase">
+                                            The Phase
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phineas-and-ferb-the-best-live-tour-ever">
+                                            Phineas and Ferb: The Best LIVE Tour Ever!
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/phedre">
+                                            Phèdre
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/piaf">
+                                            Piaf
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/piafdietrich-a-legendary-affair">
+                                            Piaf/Dietrich - A Legendary Affair
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/picasso-at-the-lapin-agile">
+                                            Picasso at the Lapin Agile
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/picnic">
+                                            Picnic
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pieces-of-string">
+                                            Pieces Of String
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pillowman">
+                                            The Pillowman
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/piloci">
+                                            Piloci
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pinafore">
+                                            Pinafore
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pinocchio">
+                                            Pinocchio
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pinokkio">
+                                            Pinokkio
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pipe-dream">
+                                            Pipe Dream
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pippin">
+                                            Pippin
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        86
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pirate-queen">
+                                            The Pirate Queen
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        33
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pirates-of-penzance">
+                                            The Pirates of Penzance
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        10
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pitchfork-disney">
+                                            The Pitchfork Disney
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-plant-that-ate-dirty-socks">
+                                            The Plant That Ate Dirty Socks
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/plastic-a-new-rock-musical">
+                                            Plastic: A New Rock Musical
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        4
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/platinum">
+                                            Platinum
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-play-that-goes-wrong">
+                                            The Play That Goes Wrong
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        19
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-playboy-of-the-western-world">
+                                            The Playboy of the Western World
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/plaza-suite">
+                                            Plaza Suite
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pokemon-live-1">
+                                            Pokémon Live
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pokemon-live">
+                                            Pokémon Live!
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        5
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/police-cops">
+                                            Police Cops
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/police-cops-in-space">
+                                            Police Cops in Space
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/police-cops-badass-be-thy-name">
+                                            Police Cops: Badass Be Thy Name
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pomona">
+                                            Pomona
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/porgy-and-bess">
+                                            Porgy and Bess
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        10
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-portuguese-kid">
+                                            The Portuguese Kid
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/posh">
+                                            Posh
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/postcards-from-the-ledge">
+                                            Postcards from the Ledge
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/potted-potter-the-unauthorized-harry-experience">
+                                            Potted Potter: The Unauthorized Harry Experience
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pound">
+                                            Pound
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pousse-cafe">
+                                            Pousse-Café
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pout-pout-fish">
+                                            The Pout-Pout Fish
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/preludes">
+                                            Preludes
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        8
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pretty-filthy">
+                                            Pretty Filthy
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pretty-woman-the-musical">
+                                            Pretty Woman: The Musical
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        36
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/prettybelle">
+                                            Prettybelle
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-price">
+                                            The Price
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-pride">
+                                            The Pride
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pride-and-prejudice">
+                                            Pride and Prejudice
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/primrose">
+                                            Primrose
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/prince-of-broadway">
+                                            Prince of Broadway
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        6
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/prince-of-central-park">
+                                            Prince of Central Park
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-prince-of-egypt">
+                                            The Prince of Egypt
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        16
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-prince-of-grand-street">
+                                            The Prince of Grand Street
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/priscilla-queen-of-the-desert">
+                                            Priscilla, Queen of the Desert
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        80
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/privacy">
+                                            Privacy
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/private-lives">
+                                            Private Lives
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-producers">
+                                            The Producers
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        47
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/prokofievs-romeo-juliet">
+                                            Prokofiev’s Romeo &amp; Juliet
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-prom">
+                                            The Prom
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        150
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/promenade">
+                                            Promenade
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/prometheus-bound">
+                                            Prometheus Bound
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/promises-promises">
+                                            Promises, Promises
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        11
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/proof">
+                                            Proof
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/the-property-known-as-garland">
+                                            The Property Known as Garland
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/psycho-beach-party">
+                                            Psycho Beach Party
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/puffs">
+                                            Puffs
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        3
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pump-up-the-volume">
+                                            Pump Up the Volume
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/punkplay">
+                                            Punkplay
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        1
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/puppet-up-uncensored">
+                                            Puppet Up Uncensored
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/purlie">
+                                            Purlie
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        2
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/putting-it-together">
+                                            Putting it Together
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        5
+                                    </td>
+                                                                    </tr>
+                                                            <tr>
+                                    <td>
+                                        <a href="https://encora.one/show/pygmalion">
+                                            Pygmalion
+                                        </a>
+                                    </td>
+
+                                    <td class="text-center">
+                                        0
+                                    </td>
+                                                                    </tr>
+                                                        </tbody>
+                        </table>
+                                            </div>
+
+                    <div class="flex-container row alphabet">
+    <div>
+        <a href="https://encora.one/shows">
+            All
+        </a>
+    </div>
+
+        <div>
+        <a href="https://encora.one/shows?search=%23">
+            #
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=A">
+            A
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=B">
+            B
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=C">
+            C
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=D">
+            D
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=E">
+            E
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=F">
+            F
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=G">
+            G
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=H">
+            H
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=I">
+            I
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=J">
+            J
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=K">
+            K
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=L">
+            L
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=M">
+            M
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=N">
+            N
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=O">
+            O
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=P">
+            P
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Q">
+            Q
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=R">
+            R
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=S">
+            S
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=T">
+            T
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=U">
+            U
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=V">
+            V
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=W">
+            W
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=X">
+            X
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Y">
+            Y
+        </a>
+    </div>
+        <div>
+        <a href="https://encora.one/shows?search=Z">
+            Z
+        </a>
+    </div>
+    </div>
+                </div>
+
+    </div>
+
+    <div id="footer" class="row mt-3">
+        <div class="container">
+            <div class="col align-self-center">
+                <h6 class="text-center">
+                    <i class="far fa-copyright"></i>
+                    2020 Encora and of the respective rightsholders
+                </h6>
+                <div class="text-center">
+                    <a href="https://encora.one/contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="removeEntry" tabindex="-1" role="dialog" aria-labelledby="removeEntryLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="removeEntryLabel">Are you sure you want to do that?</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>You're about to delete a record. This action is irreversible. Are you <em>sure</em> you want to
+                        do that?</p>
+                </div>
+                <div class="modal-footer">
+                    <form method="POST" id="confirm-delete-entry">
+                        <input type="hidden" name="_token" value="dZ82zEgHvKaIPUVl4buwRokNWVUj9DKjXXZuMGfj">
+                        <input type="hidden" name="_method" value="DELETE">                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha256-Daf8GuI2eLKHJlOWLRR/zRy9Clqcj4TUSumbxYH9kGI=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#removeEntry').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var link = button.data('link'); // Extract info from data-* attributes
+            var modal = $(this);
+            modal.find('#confirm-delete-entry').attr('action', link);
+        });
+
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $(this).removeData('bs.modal');
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"][title]').tooltip()
+        })
+
+        var textAreas = document.getElementsByTagName('textarea');
+        Array.prototype.forEach.call(textAreas, function(elem) {
+            elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+        });
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-106387485-1', 'auto');
+        ga('send', 'pageview');
+        
+    </script>
+
+    
+    
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"5f8a375edc8401a7","r":1,"version":"2020.11.6","si":10}'></script>
+</body>
+
+</html>
